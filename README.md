@@ -2,10 +2,15 @@
 # Building a local cluster through minikube
  Steps are as follows: 
   First install Virtual Box
-  Install minikube through
+  
+   # Install minikube 
+  
   curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+  
   chmod +x minikube-linux-amd64 
+  
   sudo install minikube-linux-amd64 /usr/local/bin/minikube
+  
 # Install kubectl as well 
  curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
  
