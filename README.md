@@ -21,3 +21,6 @@
  sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
  
  minikube start --vm-driver virtualbox #Minikube will start with virtualbox 
+ 
+ # creating our index.html file through Dockerfile
+  Will update both the codes 
