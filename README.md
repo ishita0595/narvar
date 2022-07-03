@@ -50,6 +50,10 @@ kubectl expose deployment hello-world --type=NodePort --port=80 --name=hello-wor
 kubectl get pods
 
 kubectl get svc hello-world
+ 
+minikube service hello-world --url
+ 
+curl http://192.168.59.100:31662
 
 minikube addons list
 
