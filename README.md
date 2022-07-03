@@ -72,6 +72,7 @@ kubectl get svc prometheus-server-np
 minikube service prometheus-server-np  --url
 
 curl http://192.168.59.100:32008/metrics
+
 kubectl expose service prometheus-server --type=NodePort --target-port=9090 --name=prometheus-server-np
 
 
